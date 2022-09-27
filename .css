@@ -1,0 +1,141 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   background-color:hsl(210,60%,98%) ; 
+   display: grid;
+   place-items :center ;
+   min-height: 100vh;
+   
+   
+   
+}
+
+p{
+    
+    color:hsl(219,14%,63%) ;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0rem auto;
+   padding: 1rem 1.5rem; 
+   background-color:hsl(0,0%,100%) ;
+   
+   
+   
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.noti{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+h1{
+    font-size: 16px;
+}
+h2{
+    color: white;
+    background-color: hsl(219,85%,26%);
+    padding: 0.1rem 0.9rem;
+    border-radius: 8px;
+
+}
+.info{
+    display: grid;
+    grid-template-columns:7% 78% ;
+    padding: 1rem 0rem 1rem 1rem;
+    margin-bottom: 2rem;
+    
+    column-gap: 15px;
+}
+images{
+    width: 60%;
+}
+.chess{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 82% 12%;
+    margin-bottom: 2rem;
+    
+}
+.che{
+    width: %;
+    
+}
+.comment{
+    padding-top: 0.5rem;
+    color:hsl(219,14%,63%) ;
+}
+
+.top{
+    background-color: hsl(211,68%,94%);
+    border-radius: 8px;
+    padding: 1rem 0rem 1rem 1rem;
+    margin-bottom: 0.5rem;
+}
+.details{
+   border: 1px solid hsl(219,12%,42%); 
+   border-radius: 6px;
+   padding: 1rem 1.5rem;
+   margin-top: 1rem;
+}
+.details:hover{
+    background-color:hsl(211,68%,94%) ;
+}
+.name{
+    font-weight: bold;
+    color: black;
+}
+
+.name:hover{
+    color:hsl(219,85%,26%) ;
+}
+.end--type{
+    color:hsl(219,12%,42%) ;
+    font-weight: bold;
+}
+.end{
+    color:hsl(219,85%,26%) ;
+    font-weight: bold;
+    
+}
+.dot{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+.hidden{
+    background-color: transparent;
+}
+@media screen and (max-width:767px){
+    .info{
+        grid-template-columns: 12% 78%;
+    }
+    .comment {
+        padding-top: 0.2rem;
+    }
+    .che{
+        margin-top: 1rem;
+    }
+}
